@@ -180,14 +180,14 @@ class STRIDEMatrix:
             self.ids_flows[item.attrib['id']] = item
         for item in self.dfd.boundaries:
             self.ids_boundaries[item.attrib['id']] = item
-        # print(
-        #     self.ids_boundaries,
-        #     self.ids_data_stores,
-        #     self.ids_external_users,
-        #     self.ids_flows,
-        #     self.ids_flows,
-        #     self.all_items
-        # )
+        print(
+            f'b: {self.ids_boundaries}\n',
+            f'd: {self.ids_data_stores}\n',
+            f'u: {self.ids_external_users}\n',
+            f'f: {self.ids_flows}\n',
+            f'p: {self.ids_processes}\n',
+            f'all: {self.all_items}\n'
+        )
         
 
         self.matrix = []

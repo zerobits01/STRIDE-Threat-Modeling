@@ -23,5 +23,6 @@ shapes:
 GROUP       = "group"                               # exact equal, groups are style="group"
 PROCESS     = "ellipse"                             # contains 
 DATA_STORE  = "shape=mxgraph.ios7ui.horLines;"      # contains
-EXT_USER    = "rounded=0;whiteSpace=wrap;html=1;"   # exact
+DATA_STORE1 = "shape=partialRectangle"
+EXT_USER    = "rounded=0;whiteSpace=wrap;html=1;"   # contains
 FLOW        = "edgeStyle=orthogonalEdgeStyle;"      # contains

@@ -20,6 +20,7 @@ def decode_drawio(path: str='test-dfd.xml') -> str:
         wbits=-15
     )
     xml = unquote(result)
+    write_output(path+'.middle.xml', xml)
     return xml
 
 
