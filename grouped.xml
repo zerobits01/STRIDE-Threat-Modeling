@@ -1,0 +1,57 @@
+<mxGraphModel dx="1153" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-7" value="2. user enter comments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="pK70q-3CxtDSkQrMYxFz-4" target="pK70q-3CxtDSkQrMYxFz-2">
+            <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-10" value="4. insert query for comment" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.503;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pK70q-3CxtDSkQrMYxFz-1" target="pK70q-3CxtDSkQrMYxFz-2">
+            <mxGeometry relative="1" as="geometry">
+                <Array as="points">
+                    <mxPoint x="808" y="450"/>
+                </Array>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-8" value="3. comment saved" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pK70q-3CxtDSkQrMYxFz-2" target="pK70q-3CxtDSkQrMYxFz-4">
+            <mxGeometry relative="1" as="geometry">
+                <Array as="points">
+                    <mxPoint x="452" y="345"/>
+                </Array>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-9" value="5. comment content" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pK70q-3CxtDSkQrMYxFz-2" target="pK70q-3CxtDSkQrMYxFz-1">
+            <mxGeometry relative="1" as="geometry">
+                <Array as="points">
+                    <mxPoint x="480" y="325"/>
+                </Array>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-2" value="web server" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+            <mxGeometry x="440" y="410" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-18" value="" style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="700" y="70" width="220" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-14" value="database" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;" vertex="1" parent="pK70q-3CxtDSkQrMYxFz-18">
+            <mxGeometry width="220" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-1" value="DataBase" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="pK70q-3CxtDSkQrMYxFz-18">
+            <mxGeometry x="40" y="230" width="135" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-11" value="1. clear db each 6 hours" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pK70q-3CxtDSkQrMYxFz-18" source="pK70q-3CxtDSkQrMYxFz-3" target="pK70q-3CxtDSkQrMYxFz-1">
+            <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-3" value="ClearDB6H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="pK70q-3CxtDSkQrMYxFz-18">
+            <mxGeometry x="80" y="50" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-19" value="" style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="70" y="290" width="220" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-15" value="user/web" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;" vertex="1" parent="pK70q-3CxtDSkQrMYxFz-19">
+            <mxGeometry width="220" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="pK70q-3CxtDSkQrMYxFz-4" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pK70q-3CxtDSkQrMYxFz-19">
+            <mxGeometry x="80" y="30" width="120" height="50" as="geometry"/>
+        </mxCell>
+    </root>
+</mxGraphModel>
