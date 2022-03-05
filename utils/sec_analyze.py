@@ -215,8 +215,8 @@ class STRIDEMatrix:
                             tamp = True
                         # dos if target is process
                         if j.attrib['target'] in self.ids_processes:
-                            dos  = True
-                        
+                            tamp = True
+                            dos  = True             
                 if j.attrib['target'] == item.attrib['id']:
                     if self.all_items[j.attrib['source']].attrib['parent'] != item.attrib['parent']:
                         # spoo and repu
@@ -264,6 +264,8 @@ class STRIDEMatrix:
                     if self.all_items[j.attrib['target']].attrib['parent'] != item.attrib['parent']:
                         if j.attrib['target'] in self.ids_processes or \
                             j.attrib['target'] in self.ids_external_users:
+                            dos  = True
+                            repu = True
                             info = True
                 if j.attrib['target'] == item.attrib['id']:
                     if self.all_items[j.attrib['source']].attrib['parent'] != item.attrib['parent']:
@@ -314,6 +316,8 @@ class STRIDEMatrix:
                 if j.attrib['target'] == item.attrib['id']:
                     if self.all_items[j.attrib['source']].attrib['parent'] != item.attrib['parent']:
                         info = True # direct info or side channels
+                        repu = True
+                        spoo = True
 
             t = Threat(
                 S=spoo,  # it connects to a process
