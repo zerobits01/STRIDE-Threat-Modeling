@@ -339,12 +339,15 @@ class STRIDEMatrix:
     def __analyze_flows(self):
         typed = 'flow'
         for item in self.dfd.flows:
+            flag = False
+            if self.all_items[item.attrib['target']].attrib['parent'] != self.all_items[item.attrib['source']].attrib['parent']:
+                flag = True
             t = Threat(
                 S=False,
-                T=True,  # -
+                T=True if flag else False,  # -
                 R=False, 
-                I=True,  # -
-                D=True,  # -
+                I=True if flag else False,  # -
+                D=True if flag else False,  # -
                 E=False
             )
             self.matrix.append(

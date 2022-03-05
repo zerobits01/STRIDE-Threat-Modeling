@@ -1,7 +1,7 @@
-|    type      |   items      |     S        |     T        |     R        |     I        |     D        |     E        | mitigations and countermesures                                                                                                    |
-|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| process      | p1           |              |              |              |              |              | x            | {'ACL', 'Authorization'}                                                                                                          |
-| data_store   | my-db        |              |              |              |              |              |              | set()                                                                                                                             |
-| ext_user     | admin        |              |              |              |              |              |              | set()                                                                                                                             |
-| flow         | admin-check  |              | x            |              | x            | x            |              | {'ACL', 'Quotas', 'NGFWs', 'Availability', 'Firewalls', 'Hash', 'Confidentiality', 'Data-Integrity', 'Cryptology', 'Permissions'} |
-| flow         | clear-db     |              | x            |              | x            | x            |              | {'ACL', 'Quotas', 'NGFWs', 'Availability', 'Firewalls', 'Hash', 'Confidentiality', 'Data-Integrity', 'Cryptology', 'Permissions'} |
+|    type      |   items      |     S        |     T        |     R        |     I        |     D        |     E        | mitigations and countermesures   |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|----------------------------------|
+| process      | p1           |              |              |              |              |              | x            | {'ACL', 'Authorization'}         |
+| data_store   | my-db        |              |              |              |              |              |              | set()                            |
+| ext_user     | admin        |              |              |              |              |              |              | set()                            |
+| flow         | admin-check  |              |              |              |              |              |              | set()                            |
+| flow         | clear-db     |              |              |              |              |              |              | set()                            |
